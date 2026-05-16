@@ -1,0 +1,38 @@
+Conceptos básicos de async y await – Clase 21
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Responde con tus propias palabras.
+
+1. ¿Qué es una promesa en JavaScript?
+Respuesta: Es como un compromiso de que algo va a pasar en el futuro. Cuando le pides datos a un servidor, la respuesta no llega de inmediato. JavaScript te da una "promesa" que se queda esperando y te dice: "Sigue con lo tuyo, que en cuanto los datos lleguen bien (resuelta) o si algo sale mal (rechazada), yo te aviso".
+
+2. ¿Qué significa async?
+Respuesta: Es la palabra clave que le pones a una función para avisarle a JavaScript que adentro de ella van a ocurrir cosas que toman tiempo (tareas asíncronas). Al ponerle async, la función automáticamente sabe que tiene permitido usar el comando await y que siempre va a devolver una promesa.
+
+3. ¿Qué significa await?
+Respuesta: Significa literalmente "esperar". Se pone justo antes de una promesa para congelar la ejecución de esa función por un momento. Le dice a JavaScript: "Detente aquí y no pases a la siguiente línea hasta que el servidor termine de responder y nos entregue los datos completos".
+
+4. ¿Por qué fetch devuelve una promesa?
+Respuesta: Porque fetch es el comando que viaja por internet a buscar información de otra página o servidor. Como internet puede ser lento, rápido o caerse, fetch no puede darte los datos al instante; te devuelve una promesa para que el navegador no se congele mientras la petición va y vuelve.
+
+5. ¿Qué diferencia viste entre .then() y async/await?
+Respuesta: Con .then(), el código se llena de funciones metidas unas dentro de otras (lo que a veces se vuelve un enredo visual difícil de leer). Con async/await, el código se ve plano, limpio y ordenado, como si fuera código normal que se ejecuta de arriba a abajo, lo que hace que sea mil veces más fácil de entender.
+
+6. ¿Qué hace try en esta práctica?
+Respuesta: Es el bloque donde ponemos el "camino feliz". Adentro de try metemos todo el código que queremos que se ejecute normalmente: hacer el fetch, esperar la respuesta del servidor y pintar las tarjetas en la pantalla. Es como decirle a la computadora: "Intenta hacer todo esto".
+
+7. ¿Qué hace catch en esta práctica?
+Respuesta: Es nuestra red de seguridad. Si algo llega a fallar dentro del bloque try (por ejemplo, si se cae el internet o el servidor de la tutora no responde), el código no se rompe ni se congela la página; en cambio, el control pasa de inmediato al catch para que podamos mostrar un mensaje de error amigable en la pantalla o en la consola.
+
+8. ¿Qué ruta se usa para cargar mensajes?
+Respuesta: Usamos la ruta local de nuestra API: /api/mensajes (o la URL completa del backend si estamos conectando el frontend).
+
+9. ¿Qué ruta se usa para cargar calendario editorial?
+Respuesta: Usamos la ruta /api/calendario.
+
+10. ¿Cómo ayuda async y await a leer mejor el código?
+Respuesta: Ayuda muchísimo porque quita todo el desorden visual de las funciones anidadas. Al leer el código, parece que todo pasara al mismo tiempo en orden secuencial (primero se hace la petición, luego se guardan los datos, luego se pintan). Esto hace que si hay un error, sea facilísimo encontrar en qué línea exacta falló.

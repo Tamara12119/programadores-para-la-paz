@@ -1,0 +1,46 @@
+Bitácora Git del proyecto vivo – Clase 21
+Nombre del estudiante: Marien Tamara Segura Carvajal
+Fecha: 15 de mayo de 2026
+Nombre de la rama: marien_segura
+
+1. Nombre del repositorio único de Semana 5:
+Respuesta: programadores-para-la-paz-mini-sitio-comunitario
+
+2. ¿Qué rama actualizan los docentes?
+Respuesta: main (o la rama principal del repositorio upstream)
+
+3. ¿Qué rama usa cada estudiante para trabajar?
+Respuesta: Su propia rama personalizada (en mi caso, marien_segura).
+
+4. Comando usado para clonar el repositorio:
+Respuesta: git clone [https://github.com/mmgranda/programadores-para-la-paz-mini-sitio-comunitario.git](https://github.com/mmgranda/programadores-para-la-paz-mini-sitio-comunitario.git)
+
+5. Comando usado para entrar a la carpeta del proyecto:
+Respuesta: cd programadores-para-la-paz-mini-sitio-comunitario
+
+6. Comando usado para crear tu rama personal:
+Respuesta: git checkout -b marien_segura (o git branch marien_segura)
+
+7. Comando usado para verificar la rama actual:
+Respuesta: git branch (o también se puede ver con git status)
+
+8. Comando que se usará desde la Clase 22 para traer cambios de main:
+Respuesta: git pull upstream main
+
+9. Explica con tus palabras qué significa fast-forward:
+Respuesta: Significa que Git actualiza tu rama moviendo la "línea del tiempo" directamente hacia adelante porque no hay conflictos ni cambios intermedios que se crucen. Es como adelantar una película hasta el punto más reciente de forma directa y limpia.
+
+10. ¿Por qué no se debe trabajar directamente en main?
+Respuesta: Porque main es la rama donde está el código limpio y final que funciona. Si trabajamos directo ahí, podemos dañar el proyecto general, causar conflictos con los cambios de los profesores o borrar el trabajo de otros por accidente. Es mejor hacer todo en nuestra propia rama y probar que funcione primero.
+
+11. Comando usado para revisar cambios al final:
+Respuesta: git status
+
+12. Comando usado para agregar cambios:
+Respuesta: git add .
+
+13. Comando usado para crear commit:
+Respuesta: git commit -m "Mensaje descriptivo de los cambios"
+
+14. Comando usado para publicar tu rama:
+Respuesta: git push origin marien_segura

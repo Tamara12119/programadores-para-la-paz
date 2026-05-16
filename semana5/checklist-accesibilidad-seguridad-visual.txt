@@ -1,0 +1,56 @@
+Checklist de accesibilidad y seguridad visual – Clase 22
+Nombre del estudiante: Marien Tamara Segura Carvajal
+Fecha: 15 de mayo de 2026
+Nombre de la rama: marien_segura
+
+Marca SÍ o NO y explica brevemente.
+
+1. Tablero de mensajes
+¿La interfaz funciona como vitrina comunitaria clara?
+
+Respuesta: SÍ. Funciona muy bien porque el diseño imita a una cartelera de barrio digital. Cualquiera que entre puede ver los anuncios, las alertas o las reuniones locales de un solo vistazo y sin enredarse.
+
+2. Accesibilidad mínima
+¿Los títulos son comprensibles y las secciones están separadas?
+
+Respuesta: SÍ. Los títulos son bien directos y dejamos buen espacio entre cada aviso. Así la gente no confunde dónde termina una publicación y dónde empieza la otra.
+
+3. Legibilidad
+¿Los textos se pueden leer con facilidad?
+
+Respuesta: SÍ. Usamos un tipo de letra bien limpio, sencillo y con un tamaño grandecito. La idea es que desde un joven hasta un adulto mayor puedan leer los mensajes sin tener que pegar la cara a la pantalla.
+
+4. Contraste suficiente
+¿El texto se distingue del fondo?
+
+Respuesta: SÍ. Elegimos colores que contrastan bastante bien (letras oscuras sobre fondos claros). De esta forma, aunque uses el celular en la calle con el reflejo del sol, los textos se siguen notando claritos.
+
+5. Jerarquía visual
+¿Se entiende qué información es principal y qué información es secundaria?
+
+Respuesta: SÍ. Lo más importante (como el título del aviso) resalta a primera vista porque está en negrita y más grande. Los detalles de fondo, como la fecha o la hora, van más abajo y en un texto más discreto.
+
+6. Lenguaje claro
+¿Los mensajes son comprensibles para una comunidad general?
+
+Respuesta: SÍ. No usamos palabras raras de programación ni tecnicismos aburridos. Todo está escrito de forma muy cotidiana y cercana, como cuando uno habla con los vecinos en el día a día.
+
+7. Organización visual coherente
+¿Las tarjetas mantienen una estructura similar?
+
+Respuesta: SÍ. Todas las tarjetas de los mensajes tienen la misma forma, el mismo orden y los mismos bordes. Al mantener ese orden, la gente se acostumbra rápido a la página y aprende a usarla al instante.
+
+8. Seguridad visual
+¿La vista pública evita saturación, confusión o exposición innecesaria?
+
+Respuesta: SÍ. Dejamos bastantes espacios libres para que la vista descanse. No hay luces parpadeantes, colores chillones ni un montón de cosas amontonadas que confundan o estresen a la gente al navegar.
+
+9. Minimización de datos visibles
+¿La página muestra solo la información necesaria?
+
+Respuesta: SÍ. Por seguridad de todos, solo mostramos de qué trata el aviso, el mensaje y el lugar. No publicamos datos delicados como números de cédula, teléfonos o direcciones exactas de los vecinos para cuidar su privacidad.
+
+10. Lenguaje responsable y no estigmatizante
+
+¿Los mensajes evitan insultos, generalizaciones, alarmismo o señalamientos sin evidencia?
+Respuesta: SÍ. El tablero es para ayudar a convivir mejor. Todos los anuncios se redactan con respeto, enfocados en dar soluciones o informar de buena fe, dejando por fuera los chismes, las acusaciones sin pruebas o los comentarios que generen pánico.

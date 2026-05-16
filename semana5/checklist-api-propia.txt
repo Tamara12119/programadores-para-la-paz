@@ -1,0 +1,68 @@
+Checklist de API propia – Clase 23
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Marca SÍ o NO y explica brevemente.
+
+1. Integración Frontend-Backend
+
+¿El frontend consulta información del backend?
+
+Respuesta: SÍ. La interfaz de usuario no trabaja sola; se conecta directamente con el servidor usando peticiones HTTP para pedirle los datos reales que necesita mostrar en la pantalla.
+
+2. Consumo de la API propia
+
+¿La página usa rutas del mismo proyecto?
+
+Respuesta: SÍ. Todo se maneja dentro de nuestro propio entorno. El frontend hace las consultas llamando a las rutas locales que creamos en nuestro servidor para no depender de servidores externos.
+
+3. Mensajes dinámicos
+
+¿Los mensajes aparecen desde datos consultados y no solo desde HTML fijo?
+
+Respuesta: SÍ. La cartelera ya no tiene textos estáticos escritos a mano en el código HTML. Ahora, cada vez que la página carga, jala la información viva que le entrega el servidor.
+
+4. Ruta GET /api/mensajes
+
+¿La ruta responde correctamente?
+
+Respuesta: SÍ. Al hacer la petición a esta ruta, el servidor responde trayendo la lista completa de todos los avisos y alertas comunitarias que los usuarios han publicado en el tablero.
+
+5. Ruta GET /api/calendario
+
+¿La ruta responde correctamente?
+
+Respuesta: SÍ. Esta ruta funciona bien y nos devuelve las fechas, horarios y detalles de los próximos eventos y reuniones programadas en la comunidad para organizar la agenda.
+
+6. Ruta GET /api/resumen
+
+¿La ruta responde correctamente?
+
+Respuesta: SÍ. Responde entregando una vista rápida o datos estadísticos clave del tablero (como cantidad de mensajes activos), ideal para mostrar un resumen ejecutivo en la página principal.
+
+7. Respuesta JSON
+
+¿Las rutas entregan datos estructurados?
+
+Respuesta: SÍ. El servidor no manda texto plano desordenado, sino que responde en formato JSON. Al venir estructurado con llaves y propiedades, el frontend puede entender y separar los datos fácilmente.
+
+8. Render dinámico
+
+¿El tablero muestra datos recibidos desde la API?
+
+Respuesta: SÍ. Mediante JavaScript, agarramos la respuesta que nos da la API, recorremos los datos y creamos las tarjetas visuales de forma automática directamente en la pantalla.
+
+9. Diagnóstico básico
+
+¿Sabes qué revisar si no carga la información?
+
+Respuesta: SÍ. Lo primero es abrir la consola del navegador (F12) en la pestaña "Network" o "Console" para ver si hay errores de conexión (como un error 404 o 500), y verificar en la terminal de Cursor que el servidor de Node.js esté corriendo.
+
+10. Comunicación responsable
+
+¿Los datos dinámicos mantienen claridad, fuente y lenguaje adecuado?
+
+Respuesta: SÍ. Aunque la información cambie constantemente por ser dinámica, los mensajes publicados se muestran indicando claramente de qué sector vienen y manteniendo un tono respetuoso, verídico y constructivo para los vecinos.

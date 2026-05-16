@@ -1,0 +1,65 @@
+Pruebas del mini-sitio y API – Clase 21
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Prueba 1: Abrir mini-sitio
+
+Dirección:
+http://localhost:3000
+
+Resultado esperado:
+El navegador muestra el mini-sitio comunitario.
+
+Resultado observado: El navegador abre la interfaz principal del sitio comunitario cargando el diseño, los botones y la estructura sin problemas.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 2: Cargar mensajes
+
+Acción:
+Hacer clic en Cargar mensajes.
+
+Resultado esperado:
+Aparecen mensajes comunitarios con título, mensaje, categoría, audiencia, tono, llamado a la acción y fuente.
+
+Resultado observado: Al dar clic, se generan de inmediato las tarjetas con toda la información detallada de los avisos del barrio.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 3: Cargar calendario editorial
+
+Acción:
+Hacer clic en Cargar calendario.
+
+Resultado esperado:
+Aparecen 6 piezas del calendario editorial.
+
+Resultado observado: La pantalla muestra las 6 tarjetas correspondientes a la planificación de las publicaciones organizadas de forma limpia.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 4: Ruta directa de mensajes
+
+Ruta:
+http://localhost:3000/api/mensajes
+
+Resultado observado: El navegador carga una pantalla con los datos puros de los mensajes estructurados en formato JSON.
+
+Prueba 5: Ruta directa de calendario
+
+Ruta:
+http://localhost:3000/api/calendario
+
+Resultado observado: La página muestra el arreglo de objetos JSON con toda la planeación de las publicaciones quincenales de la comunidad.
+
+Conclusión:
+¿Qué prueba te ayudó más a entender cómo el mini-sitio consume la API?
+
+Respuesta: La prueba que más me ayudó fue abrir las rutas directas de la API en el navegador porque me permitió ver los datos crudos en JSON y entender de dónde saca el frontend la información exacta antes de transformarla en las tarjetas del tablero.

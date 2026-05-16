@@ -1,0 +1,81 @@
+Pruebas del tablero de mensajes – Clase 22
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Prueba 1: Abrir mini-sitio
+
+Dirección:
+http://localhost:3000
+
+Resultado esperado:
+El mini-sitio abre correctamente y muestra estructura visual con estilos.
+
+Resultado observado: El sitio web abre al instante cargando la estructura completa de la interfaz con sus paneles y secciones principales instalados.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 2: Verificar hoja de estilos
+
+Archivo:
+public/styles.css
+
+Resultado esperado:
+La página muestra fondo, secciones, botones y tarjetas con estilos básicos.
+
+Resultado observado: Los botones cambian de color, las tarjetas tienen bordes limpios y el fondo resalta la tipografía haciéndola agradable a la vista.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 3: Cargar mensajes
+
+Acción:
+Hacer clic en Cargar mensajes.
+
+Resultado esperado:
+Los mensajes aparecen como tarjetas legibles.
+
+Resultado observado: La pantalla procesa la petición y organiza la información de los avisos del barrio dentro de bloques visuales independientes.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 4: Revisar datos visibles
+
+Datos visibles esperados:
+título
+mensaje
+categoría
+audiencia
+tono
+llamado a la acción
+fuente
+
+Resultado observado: Las tarjetas muestran ordenadamente el título, el mensaje principal, la categoría del aviso, a quién va dirigido, el tono de la comunicación, qué se debe hacer y quién lo respalda.
+
+¿Aparecen datos innecesarios?
+Respuesta: NO, se ocultaron los códigos de identificación internos y los comentarios privados de los moderadores.
+
+Prueba 5: Cargar calendario
+
+Acción:
+Hacer clic en Cargar calendario.
+
+Resultado esperado:
+El calendario aparece como tarjetas con información resumida.
+
+Resultado observado: El tablero dibuja las seis piezas de la planeación comunitaria de forma compacta y cronológica.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Conclusión:
+¿Qué mejora visual ayudó más a entender la información comunitaria?
+
+Respuesta: La mejora que más ayudó fue organizar la información en tarjetas independientes con estilos claros en CSS, porque permite separar una noticia de otra y leer los puntos clave como la fuente o el llamado a la acción 
+sin confundirse con el resto del texto.

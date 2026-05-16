@@ -1,0 +1,38 @@
+Reflexión sobre mini-sitio comunitario – Clase 21
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Escribe una reflexión de 8 a 10 líneas respondiendo:
+
+¿Por qué un mini-sitio que consume una API puede ayudar a una comunidad a difundir información de forma responsable, organizada y verificable?
+
+En tu respuesta menciona al menos cinco de estas ideas:
+
+* proyecto único en GitHub
+* rama main
+* rama personal
+* git pull origin main
+* fast-forward
+* async
+* await
+* fetch
+* API
+* JSON
+* difusión responsable
+* planificación del calendario editorial
+* calendario editorial
+* revisión de fuentes
+* consistencia comunicativa
+* moderación editorial básica
+* lenguaje responsable y no estigmatizante
+* participación ciudadana
+* cultura de paz
+
+Respuesta: Un sitio web conectado a una API ayuda mucho porque asegura que las noticias del barrio sean reales y ordenadas. 
+Al usar fetch con async y await para traer los datos desde un JSON, la página muestra la información al instante de forma limpia.
+ Este sistema permite hacer una moderación editorial básica antes de publicar, garantizando una difusión responsable basada en la revisión de fuentes y no en chismes. Organizar las alertas con un calendario editorial nos ayuda a usar un lenguaje responsable y no estigmatizante que cuide a los vecinos.
+ Así, la tecnología se vuelve un canal transparente que une al sector, activa la participación ciudadana y construye una cultura de paz.

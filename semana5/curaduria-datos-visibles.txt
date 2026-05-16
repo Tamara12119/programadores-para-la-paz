@@ -1,0 +1,41 @@
+Curaduría de datos visibles – Clase 22
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Revisa los datos disponibles en data/mensajes.json and data/calendario-editorial.json.
+
+1. ¿Qué datos sí deben mostrarse públicamente en el tablero de mensajes?
+
+Respuesta: El título del anuncio, el cuerpo del mensaje o descripción del evento, la fecha de la actividad, la hora y el lugar o sector afectado. Esto es lo básico que el vecino necesita saber.
+
+2. ¿Qué datos no deberían mostrarse públicamente o deben mostrarse con cuidado?
+
+Respuesta: No se deben mostrar los números de teléfono personales, correos electrónicos, los nombres completos de personas afectadas si el tema es delicado o comentarios internos que los administradores usaron para revisar la publicación.
+
+3. ¿Por qué no todo lo que está en el JSON debe aparecer en la vista pública?
+
+Respuesta: Porque los archivos JSON guardan datos de control que solo le sirven al sistema o al equipo de moderación como IDs únicos, estados de revisión o datos de contacto privados. Poner todo en la pantalla saturaría el diseño y expondría información confidencial.
+
+4. ¿Qué datos ayudan a la comunidad a entender el mensaje?
+
+Respuesta: Un título llamativo y corto, un texto redactado de forma sencilla, la fecha exacta del evento y los puntos de referencia claros para que la gente sepa ubicar el sitio del que se habla.
+
+5. ¿Qué datos ayudan a verificar la información?
+
+Respuesta: El nombre de la organización o colectivo que invita como Junta de Acción Comunal o Equipo de Programadores y un canal oficial o enlace comunitario para ampliar la información.
+
+6. ¿Qué datos podrían ser internos para revisión editorial?
+
+Respuesta: El estado del mensaje si está aprobado, pendiente o rechazado, la fecha en la que se creó el archivo originalmente, las notas o correcciones del moderador y el contacto directo del autor para llamarlo en privado si hay dudas.
+
+7. ¿Cómo se relaciona la minimización de datos visibles con la confianza comunitaria?
+
+Respuesta: Cuando los vecinos notan que la plataforma cuida su privacidad y no expone sus datos en internet, se sienten mucho más seguros de participar, enviar avisos y usar la cartelera digital del barrio.
+
+8. Escribe una regla de curaduría para el tablero:
+
+Respuesta: Antes de publicar cualquier aviso, se debe verificar que no contenga números de celular, direcciones exactas de casas ni nombres propios de vecinos, mostrando únicamente el beneficio o la información de interés colectivo.

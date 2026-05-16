@@ -1,0 +1,54 @@
+Revisión editorial de mensajes dinámicos – Clase 23
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Selecciona un mensaje que aparezca en el tablero y responde.
+
+1. Título del mensaje seleccionado:
+
+Respuesta: Taller comunitario de reciclaje y separación en la fuente
+
+2. ¿El mensaje se cargó dinámicamente desde la API?
+
+Respuesta: SÍ, el frontend lo trajo directo del servidor en formato JSON al presionar el botón de cargar mensajes.
+
+3. ¿El mensaje tiene propósito comunitario?
+
+Respuesta: SÍ, busca educar a los habitantes sobre el manejo correcto de los residuos para mejorar la limpieza en las calles del barrio.
+
+4. ¿El mensaje tiene audiencia clara?
+
+Respuesta: SÍ, va dirigido a todas las familias, jóvenes y comerciantes del sector.
+
+5. ¿El tono es adecuado?
+
+Respuesta: SÍ, es un tono educativo, cercano, amable e invita a aprender juntos en comunidad.
+
+6. ¿El llamado a la acción es comprensible?
+
+Respuesta: SÍ, invita claramente a asistir este viernes a las cuatro de la tarde en el salón comunal trayendo tres botellas de plástico limpias.
+
+7. ¿El mensaje tiene fuente o criterio de verificación?
+
+Respuesta: SÍ, está organizado y respaldado por el grupo de Jóvenes Ambientalistas del mini-sitio comunitario.
+
+8. ¿Mantiene consistencia comunicativa con los demás mensajes?
+
+Respuesta: SÍ, usa la misma estructura visual en la tarjeta y se enfoca en temas de bienestar y convivencia.
+
+9. ¿Requiere moderación editorial básica antes de publicarse?
+
+Respuesta: NO, el texto está bien redactado, es directo y no incluye datos personales o comentarios ofensivos.
+
+10. ¿Usa lenguaje responsable y no estigmatizante?
+
+Respuesta: SÍ, se centra en la importancia de aprender a reciclar juntos para cuidar el territorio, sin juzgar ni señalar los malos hábitos anteriores de nadie.
+
+11. Escribe una mejora editorial para el mensaje:
+
+Respuesta: Se podría agregar una línea corta especificando si el taller
+ incluye algún certificado de participación o si se van a regalar bolsas ecológicas para motivar a que asistan más vecinos.

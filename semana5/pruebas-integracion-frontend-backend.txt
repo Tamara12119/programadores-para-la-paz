@@ -1,0 +1,103 @@
+Pruebas de integración Frontend-Backend – Clase 23
+
+Nombre del estudiante: Marien Tamara Segura Carvajal
+
+Fecha: 15 de mayo de 2026
+
+Nombre de la rama: marien_segura
+
+Prueba 1: Backend activo
+
+Comando usado:
+npm run sitio
+
+Resultado esperado:
+El servidor inicia en http://localhost:3000 y muestra las rutas disponibles.
+
+Resultado observado: La terminal ejecuta el archivo server.js sin errores y confirma que el servidor esta corriendo en el puerto 3000.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 2: Ruta GET /api/mensajes
+
+Dirección:
+http://localhost:3000/api/mensajes
+
+Resultado esperado:
+El navegador muestra datos JSON de mensajes comunitarios.
+
+Resultado observado: El navegador carga correctamente y muestra la lista de los mensajes comunitarios estructurados con sus llaves y valores en formato JSON.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 3: Ruta GET /api/calendario
+
+Dirección:
+http://localhost:3000/api/calendario
+
+Resultado esperado:
+El navegador muestra datos JSON del calendario editorial.
+
+Resultado observado: La pagina responde de inmediato mostrando el arreglo de datos con las fechas y eventos programados.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 4: Ruta GET /api/resumen
+
+Dirección:
+http://localhost:3000/api/resumen
+
+Resultado esperado:
+El navegador muestra un resumen generado por la API propia.
+
+Resultado observado: Muestra el objeto JSON con los totales y estadísticas clave calculados por el servidor de Node.js.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 5: Frontend carga mensajes
+
+Acción:
+Hacer clic en Cargar mensajes.
+
+Resultado esperado:
+El tablero muestra mensajes dinámicos desde la API.
+
+Resultado observado: Al presionar el boton el frontend hace el fetch con éxito y dibuja de forma automatica las tarjetas con los avisos del barrio en la pantalla.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 6: Frontend carga calendario
+
+Acción:
+Hacer clic en Cargar calendario.
+
+Resultado esperado:
+El tablero muestra piezas del calendario desde la API.
+
+Resultado observado: Las secciones se actualizan solas mostrando las fechas y los eventos comunitarios de las proximas dos semanas de manera organizada.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Prueba 7: Frontend carga resumen
+
+Acción:
+Hacer clic en Cargar resumen.
+
+Resultado esperado:
+La página muestra totales generados por el backend.
+
+Resultado observado: Los contadores de la interfaz cambian y muestran los valores exactos que calculo el backend.
+
+¿Funcionó?
+Respuesta: SÍ
+
+Conclusión:
+¿Cómo comprobaste que el frontend está conectado con el backend?
+
+Respuesta: Lo comprobe porque al encender el servidor con Node.js las rutas locales de la API empezaron a responder con datos JSON en el navegador y al interactuar con los botones de la interfaz el frontend pudo hacer las peticiones asincronas fetch recibir la informacion correctamente y pintar todo el contenido de forma dinamica en la pantalla sin quedarse en blanco.
