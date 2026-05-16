@@ -1,0 +1,47 @@
+function mostrarNombre(nombre) {
+  console.log("╔══════════════════════════════════════════════════════╗");
+  console.log("║              ✨✨ TERMINAL BONITA ✨✨               ║");
+  console.log("║          Programadores para la Paz 🌈🌈🌈            ║");
+  console.log("╚══════════════════════════════════════════════════════╝");
+  console.log("");
+  console.log("✨ · ✦ · ★ · ☆ · ✧ · ✨ · ✦ · ★ · ☆ · ✧ · ✨ · ✦ · ★ · ☆ · ✧ · ✨");
+  console.log("✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦");
+  console.log("☆ ✨ ★ ✦ ☆ ✧ ★ ✨ ☆ ✦ ★ ✧ ☆ ✨ ★ ✦ ☆ ✧ ★ ✨ ☆ ✦ ★ ✧ ☆ ✨ ★");
+  console.log("☆      Bienvenido/a " + nombre + ", a tu show de consola      ✦");
+  console.log("★ ✧ ✦ ☆ ★ ✨ ★ ✧ ✦ ☆ ★ ✨ ★ ✧ ✦ ☆ ★ ✨ ★ ✧ ✦ ☆ ★ ✨ ★ ✧ ✦ ☆");
+  console.log("✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦  ✧  ★  ☆  ✦");
+  console.log("✨ · ✦ · ★ · ☆ · ✧ · ✨ · ✦ · ★ · ☆ · ✧ · ✨ · ✦ · ★ · ☆ · ✧ · ✨");
+  console.log("");
+  console.log("Hecho solo con console.log 💚 — un abrazo para " + nombre);
+}
+
+let nombre = "Carlos";
+mostrarNombre(nombre);
+console.log("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°");
+nombre = "Paola";
+mostrarNombre(nombre);
+console.log("*********************************");
+nombre = "Juan";
+mostrarNombre(nombre);
+console.log("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°");
+nombre = "Maria";
+mostrarNombre(nombre);
+console.log("*********************************");
+nombre = "Pedro";
+mostrarNombre(nombre);
+console.log("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°");
+nombre = "Ana";
+mostrarNombre(nombre);
+console.log("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°");
+nombre = "Naruto";
+mostrarNombre(nombre);
+console.log("*********************************");
+nombre = "Sasuke";
+mostrarNombre(nombre);
+console.log("*********************************");
+nombre = "Sakura";
+mostrarNombre(nombre);
+console.log("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°");
+nombre = "Kakashi";
+mostrarNombre(nombre);
+console.log("*********************************");
