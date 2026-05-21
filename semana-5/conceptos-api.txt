@@ -1,0 +1,1 @@
+Esta ruta sirve para recibir y registrar datos que el usuario envia en el cuerpo de la solicitud (req.body) respondiendo con una confirmacion en formato JSON. En una aplicacion comunitaria sirve para que los vecinos envien reportes de fallas en servicios publicos, alertas de seguridad o emergencias desde sus celulares de forma organizada. 
