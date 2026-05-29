@@ -1,0 +1,11 @@
+Explicación de la ruta POST /reporte:
+
+1. ¿Qué hace esta ruta?
+Esta ruta funciona con el método POST, lo que significa que su trabajo no es mostrar una página web, sino recibir datos que alguien le envía desde afuera. Cuando un usuario manda información, el servidor la atrapa a través de 'req.body.mensaje' y la guarda en una variable. Acto seguido, el servidor devuelve una respuesta en formato JSON con el estado "Reporte recibido" y el mismo mensaje original, confirmándole al usuario que el paquete llegó completo y sin problemas.
+
+2. ¿Para qué podría servir en una aplicación comunitaria?
+Para una iniciativa ciudadana o un proyecto escolar, una ruta de tipo POST es clave porque permite la participación de la gente. Se podría usar para:
+- Implementar un buzón de sugerencias o reclamos digital donde los usuarios envíen sus opiniones o ideas de forma directa.
+- Crear un sistema de reportes comunitarios, ideal para que los vecinos informen sobre daños en la infraestructura pública (como un bombillo comunal dañado o una calle en mal estado).
+- Diseñar un formulario para recolectar propuestas ciudadanas o estudiantiles que le lleguen directamente a los representantes.
+- Desarrollar una herramienta de alertas en tiempo real para reportar cualquier emergencia o novedad dentro del barrio o la institución.

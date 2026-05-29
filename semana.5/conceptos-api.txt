@@ -1,0 +1,2 @@
+Que hace? Recibe un texto enviado por el usuario (el `mensaje`), lo procesa en el servidor y responde confirmando que llegó bien.
+¿Para qué sirve en la comunidad?Es ideal para crear un buzón de sugerencias virtual, reportar fallas (como un bache o una farola rota) o enviar alertas de emergencia de forma rápida.

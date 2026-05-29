@@ -1,0 +1,7 @@
+Resultados de las pruebas en el navegador:
+
+1. Al entrar a http://localhost:3000 me cargó la página principal del servidor (la ruta raíz). Muestra el mensaje de bienvenida por defecto que configuramos para el inicio del sitio.
+
+2. Al probar http://localhost:3000/saludo el servidor respondió devolviendo un saludo general en la pantalla. Funciona bien para verificar que las rutas secundarias básicas están respondiendo.
+
+3. Al ingresar a http://localhost:3000/mensaje/juan la ruta capturó con éxito el parámetro con el nombre "juan" en la URL y pintó un mensaje personalizado en el navegador que decía algo como "Hola juan".
