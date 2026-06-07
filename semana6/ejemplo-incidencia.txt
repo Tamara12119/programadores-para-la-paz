@@ -1,0 +1,16 @@
+Este es un ejemplo de los datos en formato JSON que un ciudadano enviaría desde la aplicación comunitaria para reportar un problema en el barrio.
+
+Para reportar una falla, la petición se envía como un método POST a la ruta:
+http://localhost:3000/incidencia
+
+Datos del reporte (JSON):
+{
+  "tipo": "Iluminación pública",
+  "descripcion": "La comunidad reporta que una lámpara del parque no funciona desde hace varios días."
+}
+
+¿Por qué se envía así?
+- "tipo": Define de forma corta la categoría del problema (en este caso, la luz del parque).
+- "descripcion": Explica detalladamente lo que está pasando para que los encargados de la comunidad puedan revisarlo.
+
+Cuando el servidor recibe este JSON, lo procesa con 'req.body' y responde confirmando que el reporte fue registrado con éxito.

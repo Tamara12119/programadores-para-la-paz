@@ -1,0 +1,16 @@
+En esta práctica de la semana 6, probamos el funcionamiento de nuestro servidor enviando una petición de tipo POST a la ruta http://localhost:3000/registro usando la extensión Thunder Client. 
+
+Al hacer la prueba, el servidor nos devolvió la siguiente respuesta en formato JSON:
+
+{
+  "estado": "Datos recibidos",
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+¿Qué significa esta respuesta?
+Lo que esto nos demuestra es que todo nuestro código quedó bien conectado:
+
+1. El servidor está activo, escuchando en el puerto 3000 y reaccionó correctamente cuando le tocamos la puerta en la ruta '/registro'.
+2. Logró entrar al cuerpo del mensaje que le mandamos (el req.body) y leyó perfectamente el nombre ("Maria") y el texto ("Hola comunidad") sin perder nada en el camino.
+3. Al final, nos contestó con el estado de éxito que le programamos, confirmando que la comunicación entre Thunder Client y Node.js funciona al 100%.

@@ -1,0 +1,9 @@
+Es fundamental que las plataformas tecnológicas reciban reportes ciudadanos de forma estructurada 
+porque esto permite que las computadoras entiendan y organicen la información de manera automática 
+y sin errores. Cuando una comunidad envía un problema usando formatos ordenados como JSON, 
+el sistema del servidor (mediante herramientas como `req.body`) puede separar de inmediato el tipo de falla, 
+la descripción y el lugar afectado. Esto evita que los encargados pierdan tiempo leyendo textos largos o desordenados 
+para adivinar qué pasa en el barrio. Además, al tener los datos clasificados desde el inicio, 
+se pueden generar estadísticas automáticas, priorizar las emergencias reales (como un poste de luz dañado o una vía bloqueada) 
+y enviar la ayuda de forma muchísimo más rápida. En conclusión, la estructura 
+transforma las quejas sueltas en soluciones organizadas y eficientes para toda la comunidad.
